@@ -2,15 +2,33 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.step {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight:bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  margin: .5rem;
+}
+ 
+.counter {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight:bold;
+}
+
+.date {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-header {
